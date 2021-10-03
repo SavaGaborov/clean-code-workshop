@@ -7,6 +7,7 @@ public class Pub {
     public static final String GT = "gt";
     public static final String BACARDI_SPECIAL = "bacardi_special";
 
+    //TODO try to soft reset commit
     public int computeCost(String drink, boolean student, int amount) {
         if (amount > 2 && (drink == GT || drink == BACARDI_SPECIAL)) {
             throw new RuntimeException("Too many drinks, max 2.");
