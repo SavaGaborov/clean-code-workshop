@@ -31,7 +31,6 @@ public class Pub {
         return price * amount;
     }
 
-
     // one unit of rum
     private int ingredient1() {
         return 65;
