@@ -7,10 +7,13 @@ public class TennisGame1 implements TennisGame {
     private String player1Name;
     private String player2Name;
 
+
     public TennisGame1(String player1Name, String player2Name) {
         this.player1Name = player1Name;
         this.player2Name = player2Name;
     }
+
+
 
     public void wonPoint(String playerName) {
         if (playerName == "player1")
@@ -18,6 +21,7 @@ public class TennisGame1 implements TennisGame {
         else
             m_score2 += 1;
     }
+    //TODO git check
 
     public String getScore() {
         String score = "";

@@ -12,6 +12,7 @@ public class Pub {
         if (amount > 2 && (drink == GT || drink == BACARDI_SPECIAL)) {
             throw new RuntimeException("Too many drinks, max 2.");
         }
+
         int price;
         if (drink.equals(ONE_BEER)) {
             price = 74;
