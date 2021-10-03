@@ -2,6 +2,7 @@ package com.oblac.cleancodekatas.marsrover;
 
 public class Rover {
 
+
     private String direction;
     private int y;
     private int x;
