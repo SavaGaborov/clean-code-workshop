@@ -1,7 +1,6 @@
 package com.oblac.cleancodekatas.bar;
 
 public class Pub {
-
     public static final String ONE_BEER = "hansa";
     public static final String ONE_CIDER = "grans";
     public static final String A_PROPER_CIDER = "strongbow";
@@ -31,6 +30,7 @@ public class Pub {
         }
         return price * amount;
     }
+
 
     // one unit of rum
     private int ingredient1() {
