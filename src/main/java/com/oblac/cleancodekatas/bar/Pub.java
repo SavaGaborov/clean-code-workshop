@@ -1,7 +1,6 @@
 package com.oblac.cleancodekatas.bar;
 
 public class Pub {
-    //TODO work with stash
     public static final String ONE_BEER = "hansa";
     public static final String ONE_CIDER = "grans";
     public static final String A_PROPER_CIDER = "strongbow";
