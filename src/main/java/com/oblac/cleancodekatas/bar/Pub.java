@@ -13,6 +13,7 @@ public class Pub {
             throw new RuntimeException("Too many drinks, max 2.");
         }
 
+        //TODO interactive rebase #2
         int price;
         if (drink.equals(ONE_BEER)) {
             price = 74;
