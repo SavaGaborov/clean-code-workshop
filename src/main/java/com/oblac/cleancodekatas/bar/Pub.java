@@ -7,13 +7,11 @@ public class Pub {
     public static final String GT = "gt";
     public static final String BACARDI_SPECIAL = "bacardi_special";
 
-    //TODO interactive rebase #3
     public int computeCost(String drink, boolean student, int amount) {
         if (amount > 2 && (drink == GT || drink == BACARDI_SPECIAL)) {
             throw new RuntimeException("Too many drinks, max 2.");
         }
 
-        //TODO interactive rebase #4
         int price;
         if (drink.equals(ONE_BEER)) {
             price = 74;
